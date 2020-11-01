@@ -27,7 +27,7 @@
 }
 
 .formulario .corpo-formulario{
-    margin: 15px 20px 5px 20px;
+    margin: 15px 10px 15px 10px;
 }
 
 .botao-formulario{
@@ -43,10 +43,4 @@
     border-radius: 7px;
     border-color: white;
    
-}
-
-@media (min-width: 320){
-    #nome, #email{
-        width: 1000px;
-    }
 }
