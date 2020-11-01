@@ -7,6 +7,8 @@
 
 .header .menu{
     text-align: center;
+    font-size: 60%;
+    
 } 
 
 .header .menu .menu-item{
@@ -23,8 +25,8 @@
 
 .header .menu .menu-item a{
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
     text-align: center;
     padding: 10px 10px 10px 10px;
     text-transform: uppercase;
@@ -33,6 +35,61 @@
 
 .header .menu .menu-item a:hover{
     background-color: #48A3A6;
+}
+
+.header .painel-principal{
+    text-align: center;
+    font-size: 150%;
+    
+}
+
+.painel-principal h1{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: larger;
+    text-shadow: black 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.painel-principal h2{
+    color: #66fd42;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 5px;
+}
+
+.botao {
+    text-align: center;
+}
+
+#inscricao{
+    width: 120px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    border-radius: 7px;
+    background-color: #48A3A6;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    
+}
+
+#inscricao a{
+    text-decoration: none;
+    font-size: 70%;
+    color: white;
+    font-weight: bold;
+}
+
+@media(min-width: 600px){
+    .header .painel-principal{
+        text-align: center;
+        font-size: 230%;
+        
+    }
+    
+
 }
 
 
