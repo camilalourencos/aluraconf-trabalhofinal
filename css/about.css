@@ -6,16 +6,17 @@
 .about .chamada{
     font-size: 25px;
     font-weight: 2px;
-    padding:5px;
 }
 
 .about .data{
     font-size: 15px;
-    padding: 10px 0;
+    margin-top: 10px;
 
 }
 
 .about .descricao{
+    margin-top: 10px;
     font-size: 12px;
     line-height:20px;
 }
+

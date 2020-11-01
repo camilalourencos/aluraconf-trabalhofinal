@@ -1,0 +1,55 @@
+.info-palestrantes{
+    text-align: center;
+    padding: 20px;
+    background: #f17e50;
+}
+
+.info-palestrantes .titulo{
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+.info-palestrantes .subtitulo{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.info-palestrantes .palestrante-descricao{
+    text-align: center;
+}
+
+.info-palestrantes .palestrante-sobre{
+    display: inline-block;
+    padding: 10px;  
+    width: 180px;
+    max-height: 500px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 18px 15px;
+    margin: 10px 20px 20px 20px;
+    vertical-align: top;
+}
+
+.info-palestrantes  .palestrante-foto{
+    width: 180px;
+    border-radius: 100%;
+}
+
+.info-palestrantes .palestrante-nome, .palestrante-quote{
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+.info-palestrantes .palestrante-job{
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+}
