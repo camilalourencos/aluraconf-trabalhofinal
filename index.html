@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/palestrantes.css">
+    <link rel="stylesheet" href="css/formulario.css">
 
     <title>Alura Conf</title>
 </head>
@@ -104,6 +105,30 @@
                                     
             </ul>
         </div>
+    </section>
+
+    <section class="formulario">
+        <div class="container">
+            <div class=formulario-header>
+                <h2 class="titulo-formulario">Seus dados</h2>
+            </div>
+            <div class="corpo-formulario">
+                <form id="contato">
+                    <p>
+                        <label for="nome" class="label-input">Nome</label>
+                        <input type="text" name="nome" id="nome" class="area-input">
+                    </p>
+                    <p>
+                        <label for="email" class="label-input">E-mail</label>
+                        <input type="text" name="email" id="email" class="area-input">
+                    </p>        
+                </form>
+            </div>
+            <div class="botao-formulario">
+                <button type="submit" form="contato" value="realizar-inscricao" id="botao-form">Realizar inscrição</button>
+            </div>
+       
+        </div>        
     </section>
     
 </body>
